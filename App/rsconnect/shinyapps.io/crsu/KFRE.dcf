@@ -1,0 +1,13 @@
+name: KFRE
+title: KFRE
+username:
+account: crsu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8586087
+bundleId: 7030109
+url: https://crsu.shinyapps.io/KFRE/
+when: 1680207091.09538
+lastSyncTime: 1680207091.09539
+asMultiple: FALSE
+asStatic: FALSE
