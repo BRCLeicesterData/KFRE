@@ -2,6 +2,8 @@
 
 This R Shiny app is designed to accompany the article: Maher _et al_ "Using the Kidney Failure Risk Equation to predict end-stage kidney disease in CKD patients of South Asian ethnicity: an external validation study (in submission).  
 
+This app is hosted at https://crsu.shinyapps.io/KFRE/
+
 For more information please consult the [User Guide](https://github.com/BRCLeicesterData/KFRE/wiki/User-Guide).
 
 ---
