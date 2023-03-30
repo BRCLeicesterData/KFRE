@@ -20,10 +20,9 @@ results <- readRDS("results.rds")
 # Data frame of analysis results
 
 ui <- fluidPage(
-  titlePanel(
-    h3("Using the Kidney Failure Risk Equation to predict end-stage kidney disease 
-    in CKD patients of South Asian ethnicity", align = "center")
-  ),
+  titlePanel("Using the Kidney Failure Risk Equation to predict end-stage kidney disease 
+    in CKD patients of South Asian ethnicity"),
+
   fluidRow(
     style = "padding-left:10px; padding-right:10px;",
     p("This R Shiny app is designed to accompany the article: Maher", tags$em("et al"),  "Using the Kidney 
