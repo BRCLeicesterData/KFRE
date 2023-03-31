@@ -137,7 +137,7 @@ server <- function(input, output) {
     res <- results[(results$cohort == input$cohort_left) & (results$model == input$model_left),] 
     
     # Call plot function (in plots.R)
-    calibration_plot(res, input$cohort_left, input$trunc_left) 
+    calibration_plot(res, input$cohort_left, input$model_left, input$trunc_left) 
 
   })
   
@@ -149,7 +149,7 @@ server <- function(input, output) {
     res <- results[(results$cohort == input$cohort_right) & (results$model == input$model_right),] 
     
     # Call plot function (in plots.R)
-    calibration_plot(res, input$cohort_right, input$trunc_right) 
+    calibration_plot(res, input$cohort_right, input$model_right, input$trunc_right) 
     
   })
   

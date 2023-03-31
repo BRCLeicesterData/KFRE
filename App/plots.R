@@ -3,16 +3,25 @@
 # INPUTS:
 # results: df containing subset of results.rds to be plotted
 # cohort: cohort input selection
+# model: model input selection
 # max: max axis limit from axis truncation slider as a percentage
 #
 # OUTPUT: calibration plot as ggplot
 
-calibration_plot <- function(results, cohort, maximum) {
+calibration_plot <- function(results, cohort, model, maximum) {
   
   # Make correct title
-  if (cohort == "All") {title <- "Overall"
-  } else if (cohort == "South_Asian") {title <- "South Asian cohort"
-  } else if (cohort == "White") {title <- "White cohort"}
+  if (cohort == "All") {t1 <- "Overall - "
+  } else if (cohort == "South_Asian") {t1 <- "South Asian cohort - "
+  } else if (cohort == "White") {t1 <- "White cohort - "}
+  
+  if (model == 2) {t2 <- "Model 2"
+  } else if (model == 3) {t2 <- "Model 3" 
+  } else if (model == 4) {t2 <- "Model 4" 
+  } else if (model == 5) {t2 <- "Model 5"
+  }
+  
+  title <- paste(t1, t2, sep = "")
   
   # Convert max to a proportion
   max <- maximum/100
