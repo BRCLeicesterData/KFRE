@@ -1,5 +1,7 @@
 # Kidney Failure Risk Index (KFRE) Shiny App
 
+[![DOI](https://zenodo.org/badge/614841553.svg)](https://zenodo.org/badge/latestdoi/614841553)
+
 This R Shiny app is designed to accompany the article: Maher _et al_ "Using the Kidney Failure Risk Equation to predict end-stage kidney disease in CKD patients of South Asian ethnicity: an external validation study (in submission).  
 
 This app is hosted at https://crsu.shinyapps.io/KFRE/.  
