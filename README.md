@@ -1,4 +1,4 @@
-# Kidney Failure Risk Index (KFRE) Shiny App
+# Kidney Failure Risk Equation (KFRE) Shiny App
 
 [![DOI](https://zenodo.org/badge/614841553.svg)](https://zenodo.org/badge/latestdoi/614841553)
 
@@ -8,6 +8,10 @@ This app is hosted at https://crsu.shinyapps.io/KFRE/.
 Alternatively the code is available here to download locally and run in R.
 
 For more information please consult the [User Guide](https://github.com/BRCLeicesterData/KFRE/wiki/User-Guide).
+
+This repository also contains the R code used for the analysis in the paper: [ExternalValidation_Rcode.R](https://github.com/BRCLeicesterData/KFRE/edit/main/ExternalValidation_Rcode.R). 
+
+The accompanying dataset used is available: [kfre_data.Rda](https://github.com/BRCLeicesterData/KFRE/edit/main/kfre_data.Rda).
 
 ---
 
